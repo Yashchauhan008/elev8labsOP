@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import GradientBackground from './GradientBackground';
-import Silk from './Silk';
+import React from 'react';
+// import GradientBackground from '../ui/GradientBackground';
+import Silk from '../ui/Silk';
 import bwave from '../assets/bottom-wave.svg';
 import HeroParallax from './HeroParallax';
-import SplitText from './SplitText';
+// import SplitText from '../ui/SplitText';
 
 
 export default function Hero() {
 
-  const [startSecond, setStartSecond] = useState(false);
+  // const [startSecond, setStartSecond] = useState(false);
 
 
   return (
@@ -27,7 +27,7 @@ export default function Hero() {
       </div>
 
       <HeroParallax/>
-      <img src={bwave} className='absolute bottom-0 left-0 right-0 z-20 w-full' />
+      <img src={bwave} alt='elev8logo' className='absolute bottom-0 left-0 right-0 z-20 w-full' />
     </section>
   );
 }
