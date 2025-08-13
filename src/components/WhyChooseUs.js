@@ -226,7 +226,7 @@ const WhyChooseUs = () => {
                     </div>
                  ) : (
                     // --- Desktop Marquee Animation ---
-                    <div className="relative w-full overflow-hidden">
+                    <div className="relative w-full py-12 overflow-hidden">
                         <motion.div
                             className="flex gap-8"
                             animate={{ x: ['0%', '-100%'] }}

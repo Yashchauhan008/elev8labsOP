@@ -6,6 +6,9 @@ import About from './components/About';
 import WhatYouGet from './components/WhatYouGet';
 import WhyChooseUs from './components/WhyChooseUs';
 import Process from './components/Process';
+import CallToAction from './components/CallToAction';
+import Testimonial from './components/Testimonial';
+import PortfolioSection from './components/PortfolioSection';
 
 function App() {
   return (
@@ -15,7 +18,10 @@ function App() {
        <About />
        <WhatYouGet/>
        <WhyChooseUs/>
+       <Testimonial/>
        <Process/>
+       <PortfolioSection/>
+       <CallToAction/>
     </main>
   );
 }
