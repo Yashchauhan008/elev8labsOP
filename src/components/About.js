@@ -211,11 +211,11 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="relative bg-black min-h-[80vh] w-full flex flex-col">
+    <section id="about" className="relativ bg-black min-h-[80vh] w-full flex flex-col">
       {/* ... other JSX elements like bwave, SplitText, BlurText remain the same ... */}
-      <div className='relative bg-red-500 z-[1000]'>
+      {/* <div className='relative bg-red-500 z-[1000]'>
         <img src={bwave} className='absolute top-0 w-full rotate-180 translate-y-[80vh]' />
-      </div>
+      </div> */}
       <div className='mt-10'></div>
       <div className='text-center'>
         <SplitText
@@ -237,7 +237,7 @@ export default function About() {
         <div className='text-center px-[20px] sm:px-[100px] lg:px[200px] md:px-[100px]'>
           <BlurText
             text="This isn’t your typical “we started in a garage” story."
-            className="text-2xl sm:text-4xl md:text-4xl lg:text-5xl text-gray-400 font-bold mb-4 font-[tenali] flex items-center justify-center"
+            className="lowercase text-2xl sm:text-4xl md:text-4xl lg:text-5xl text-gray-400 font-bold mb-4 font-[tenali] flex items-center justify-center"
             delay={150}
             animateBy="words"
             direction="bottom"
@@ -245,7 +245,7 @@ export default function About() {
         <div className='text-center px-[20px] sm:px-[100px] lg:px[200px] md:px-[100px]'>
           <BlurText
             text="ELEV8LABS WAS BORN IN A UNIVERSITY CANTEEN ☕️ OVER TOO MUCH CHAI AND TOO MANY “WHAT IF” IDEAS."
-            className="text-2xl sm:text-4xl md:text-4xl lg:text-5xl text-gray-400 font-bold mb-4 font-[tenali] flex items-center justify-center"
+            className="lowercase text-2xl sm:text-4xl md:text-4xl lg:text-5xl text-gray-400 font-bold mb-4 font-[tenali] flex items-center justify-center"
             delay={150}
             animateBy="words"
             direction="bottom"
@@ -256,7 +256,7 @@ export default function About() {
             delay={150}
             animateBy="words"
             direction="bottom"
-            className="text-2xl sm:text-4xl md:text-4xl lg:text-5xl text-gray-400 font-bold mb-4 font-[tenali] flex items-center justify-center"
+            className="lowercase text-2xl sm:text-4xl md:text-4xl lg:text-5xl text-gray-400 font-bold mb-4 font-[tenali] flex items-center justify-center"
           /></div>
       </div>
       {/* --- Button Container --- */}
