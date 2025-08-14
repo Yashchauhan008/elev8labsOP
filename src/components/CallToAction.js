@@ -42,7 +42,7 @@ const RevealSimple = ({ children, delay = 0 }) => {
 
 const CallToAction = () => {
   return (
-    <section id="contact" className="relative w-full h-[45vh] sm:h-[45vh] bg-black flex flex-col items-center justify-center overflow-hidden">
+    <section id="contact" className="relative w-full h-[50vh] sm:h-[50vh] bg-black flex flex-col items-center justify-center overflow-hidden">
       <div className='absolute h-full w-full z-[1000]'>
         <Ribbons
           baseThickness={50}
@@ -78,7 +78,7 @@ const CallToAction = () => {
 
         {/* --- Glassmorphic CTA Buttons --- */}
         <RevealSimple delay={0.3}>
-          <div className=" relative mt-10 sm:mt-12 flex flex-col sm:flex-row -translate-y-8 sm:-translate-y-14 md:-translate-y-28 items-center gap-4 z-[1000]">
+          <div className=" relative mt-10 sm:mt-12 flex flex-col sm:flex-row -translate-y-14 sm:-translate-y-16 md:-translate-y-32 items-center gap-4 z-[1000]">
 
             {/* Call Button */}
             <motion.a

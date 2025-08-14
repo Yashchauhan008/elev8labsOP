@@ -74,7 +74,7 @@ export default function Testimonial() {
                     speed={0.5}
                 />
             </div> */}
-            <img src={twave} className="absolute bottom-0 rotate-180 w-full z-[10]" />
+            <img src={twave} className="absolute bottom-0 rotate-180 w-full z-[0]" />
 
         </section>
     );
