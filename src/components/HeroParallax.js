@@ -490,7 +490,7 @@ import ui6 from "../assets/webui/ui6.png";
 
 const parallaxProps = [
   // Top-left corner
-  { id: 1, text: 'MOTION', image: ui1, x: 25, y: 25, speed: 1.5 },
+  { id: 1, text: 'CREATIVE', image: ui1, x: 25, y: 25, speed: 1.5 },
   
   // Top-right corner
   { id: 2, text: 'DESIGN', image: ui2, x: 70, y: 25, speed: 1.4 },
@@ -499,13 +499,13 @@ const parallaxProps = [
   { id: 3, text: 'FLOW', image: ui3, x: 8, y: 50, speed: 1.6 },
   
   // Middle-right edge
-  { id: 4, text: 'DYNAMIC', image: ui4, x: 80, y: 50, speed: 1.3 },
+  { id: 4, text: 'GROWTH', image: ui4, x: 80, y: 50, speed: 1.3 },
   
   // Bottom-left corner
   { id: 5, text: 'SMOOTH', image: ui5, x: 25, y: 75, speed: 1.7 },
   
   // Bottom-right corner
-  { id: 6, text: 'FLUID', image: ui6, x: 70, y: 75, speed: 1.5 },
+  { id: 6, text: 'DYNAMIC', image: ui6, x: 70, y: 75, speed: 1.5 },
 ];
 
 const FloatingElement = ({ prop, mousePosition, activeId }) => {

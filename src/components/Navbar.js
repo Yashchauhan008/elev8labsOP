@@ -43,7 +43,7 @@ export default function Navbar() {
               >
                 {hoveredLink === link.name && (
                   <motion.div
-                    className="absolute inset-0 bg-slate-700/50 rounded-lg z-0"
+                    className="absolute inset-0 bg-slate-700/50 rounded-lg z-[10000]"
                     layoutId="hover-overlay"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -51,7 +51,7 @@ export default function Navbar() {
                     transition={{ duration: 0.2 }}
                   />
                 )}
-                <span className="relative z-10">{link.name}</span>
+                <span className="relative z-[10000]">{link.name}</span>
               </a>
             ))}
           </div>
@@ -98,7 +98,7 @@ export default function Navbar() {
 
       {/* Mobile Menu with Background Blur */}
       {isOpen && (
-        <div className="fixed inset-0 z-40 md:hidden">
+        <div className="fixed inset-0 z-[10000] md:hidden">
           {/* Background Blur Layer */}
           <div
             className="absolute inset-0 backdrop-blur-sm bg-black/60 transition-opacity duration-1000"
@@ -107,7 +107,7 @@ export default function Navbar() {
 
           {/* Floating Menu */}
           <div className="absolute top-24 left-0 w-full transition-transform duration-1000 ease-in-out">
-            <div className="mx-4 flex flex-col gap-3 relative z-50">
+            <div className="mx-4 flex flex-col gap-3 relative z-[10000]">
               {navLinks.map((link, i) => (
                 <a
                   key={link.href}
