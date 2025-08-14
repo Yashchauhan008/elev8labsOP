@@ -18,9 +18,9 @@ function App() {
        <About />
        <WhatYouGet/>
        <WhyChooseUs/>
-       <Testimonial/>
-       <Process/>
        <PortfolioSection/>
+       <Process/>
+       <Testimonial/>
        <CallToAction/>
     </main>
   );

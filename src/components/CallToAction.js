@@ -41,7 +41,7 @@ const RevealFromBottom = ({ children, delay = 0, duration = 0.8 }) => {
 
 const CallToAction = () => {
   return (
-    <section className="relative w-full h-[50vh] bg-black flex flex-col items-center justify-end overflow-hidden pb-10 sm:pb-20">
+    <section id="contact" className="relative w-full h-[50vh] bg-black flex flex-col items-center justify-end overflow-hidden pb-10 sm:pb-20">
       {/* --- Top Content (optional, based on the example image) --- */}
       {/* <div className="text-center text-white mb-20 px-4">
         <h2 className="text-3xl md:text-5xl font-medium leading-tight">

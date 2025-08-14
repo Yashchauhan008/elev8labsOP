@@ -105,7 +105,7 @@ function WhatYouGet() {
     }, []);
 
     return (
-        <div className="relative min-h-screen w-screen bg-black text-white font-sans overflow-hidden">
+        <div id='service' className="relative min-h-screen w-screen bg-black text-white font-sans overflow-hidden">
             {/* Restored SVG Waves */}
             <img src={twave} className='absolute top-0 left-0 w-full object-cover z-10 pointer-events-none' alt="" />
 

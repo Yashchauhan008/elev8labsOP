@@ -4,7 +4,8 @@ import logo from "../assets/logo.png"; // Make sure your logo is here
 
 const navLinks = [
   { name: "About", href: "#about" },
-  { name: "Portfolio", href: "#portfolio" },
+  { name: "Service", href: "#service" },
+  { name: "Works", href: "#work" },
   { name: "Contact", href: "#contact" },
 ];
 

@@ -353,7 +353,7 @@ const PortfolioSection = () => {
     }, []);
 
     return (
-        <section ref={containerRef} className="relative h-full bg-black text-white font-sans py-24 md:py-32 overflow-hidden">
+        <section id='work' ref={containerRef} className="relative h-full bg-black text-white font-sans py-24 md:py-32 overflow-hidden">
             <img src={twave} className='absolute top-0 left-0 w-full object-cover z-10 pointer-events-none' alt="" />
             <div className='w-full h-screen absolute top-0 z-0'>
                 <Aurora colorStops={["#7700ff", "#7700ff", "#7700ff"]} blend={0.5} amplitude={1.0} speed={0.5} />
