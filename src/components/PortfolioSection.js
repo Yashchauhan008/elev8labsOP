@@ -4,47 +4,53 @@ import Aurora from '../ui/Aurora'; // Make sure this path is correct
 import twave from "../assets/top-wave.svg"; // Make sure this path is correct
 import bwave from "../assets/bottom-wave.svg"; // Make sure this path is correct
 
+import vapor1 from '../assets/projects/vapor1.png'
+import vapor2 from '../assets/projects/vapor2.png'
+import vapor3 from '../assets/projects/vapor3.png'
+
+import shanvi1 from '../assets/projects/proj2.webp'
+
+import resto1 from '../assets/projects/proj3.webp'
+
 // --- Full Data for Projects (No Changes) ---
 const projects = [
     {
         id: 1,
-        title: "Project Alpha",
-        category: "Web Design & Development",
-        description: "A complete overhaul of a leading e-commerce platform, focusing on a seamless user experience and a 40% increase in conversion rates. We handled everything from UX research to the final deployment on a scalable cloud infrastructure.",
+        title: "Shanvi Enterprise",
+        category: "Business Management Software",
+        description: "Developed a highly efficient inventory management solution for one of India’s leading pallet exporters. The system streamlines stock tracking, order management, and reporting, ensuring faster operations and better decision-making.",
         images: [
-            "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-            "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-            "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+            shanvi1
         ],
         glowColor: "shadow-blue-500/50",
         speed: 0.02
     },
     {
         id: 2,
-        title: "Brand Beta",
-        category: "Branding & Identity",
-        description: "We crafted a new brand identity from the ground up for a disruptive tech startup. This included logo design, a comprehensive brand guide, and marketing collateral that helped them secure their first round of funding.",
+        title: "Vapor UI",
+        category: "UI Component Library",
+        description: "A custom-built UI library developed with Framer Motion and GSAP, delivering high-performance, animation-rich components for modern web applications. Designed for developers seeking visually engaging and fluid user experiences.",
         images: [
-            "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
-            "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+            vapor1,
+            vapor2,
+            vapor3,
         ],
         glowColor: "shadow-purple-500/50",
         speed: 0.04
     },
     {
         id: 3,
-        title: "App Gamma",
-        category: "Mobile App Development",
-        description: "An intuitive mobile application for iOS and Android that helps users track their fitness goals. The app features real-time data synchronization, social sharing, and a clean, motivating user interface.",
+        title: "Imperial Restaurants",
+        category: "Restaurant Management Platform",
+        description: "Currently developing a table booking platform tailored for Imperial Restaurants. The solution will offer real-time reservation management, an intuitive booking interface, and integrated customer engagement tools.",
         images: [
-            "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
-            "https://images.unsplash.com/photo-1581287053822-fd7bf4f4bf3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
-            "https://images.unsplash.com/photo-1525923838299-23124b655649?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
+            resto1
         ],
         glowColor: "shadow-pink-500/50",
         speed: 0.03
     },
 ];
+
 
 // --- MODIFIED Modal Component ---
 const ProjectModal = ({ project, onClose } ) => {
