@@ -341,7 +341,7 @@ export default function Aurora(props) {
       colorStops = ["#5227FF", "#7cff67", "#5227FF"],
       amplitude = 1.0,
       blend = 0.5,
-      saturation = 0.5, // **NEW**: Control for color intensity
+      saturation = 0.4, // **NEW**: Control for color intensity
     } = propsRef.current;
 
     const colorStopsArray = colorStops.map((hex) => {
@@ -368,7 +368,7 @@ export default function Aurora(props) {
     const update = (t) => {
       animateId = requestAnimationFrame(update);
       
-      const { time = t * 0.01, speed = 1.0, amplitude, blend, colorStops, saturation = 0.5 } = propsRef.current;
+      const { time = t * 0.01, speed = 1.0, amplitude, blend, colorStops, saturation = 0.4 } = propsRef.current;
 
       program.uniforms.uTime.value = time * speed * 0.1;
       program.uniforms.uAmplitude.value = amplitude ?? 1.0;

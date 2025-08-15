@@ -171,7 +171,7 @@ const PortfolioSection = () => {
     return (
         <section id='work' ref={containerRef} className="relative h-full bg-black text-white font-sans py-24 md:py-32 overflow-hidden">
             <img src={twave} className='absolute top-0 left-0 w-full object-cover z-10 pointer-events-none' alt="" />
-            <div className='w-full h-screen absolute top-0 z-0'>
+            <div className='w-full h-screen bg-black absolute top-0 z-0'>
                 <Aurora colorStops={["#7700ff", "#7700ff", "#7700ff"]} blend={0.5} amplitude={1.5} speed={0.5} />
             </div>
             <div className='w-full h-screen rotate-180 absolute bottom-0'>
