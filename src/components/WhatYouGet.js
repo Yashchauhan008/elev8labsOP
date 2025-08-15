@@ -151,7 +151,7 @@ function WhatYouGet() {
                     </div>
                 </div>
             </div>
-            <div className='w-full h-screen absolute top-0'>
+            <div className='w-full bg-black h-screen absolute top-0'>
                 <Aurora
                     colorStops={["#7700ff", "#7700ff", "#7700ff"]}
                     blend={0.5}
