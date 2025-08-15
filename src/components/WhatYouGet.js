@@ -155,7 +155,7 @@ function WhatYouGet() {
                 <Aurora
                     colorStops={["#7700ff", "#7700ff", "#7700ff"]}
                     blend={0.5}
-                    amplitude={1.0}
+                    amplitude={1.5}
                     speed={0.5}
                 />
             </div>
@@ -163,7 +163,7 @@ function WhatYouGet() {
                 <Aurora
                     colorStops={["#7700ff", "#7700ff", "#7700ff"]}
                     blend={0.5}
-                    amplitude={1.0}
+                    amplitude={1.5}
                     speed={0.5}
                 />
             </div>
